@@ -7,11 +7,7 @@
   },
   "main": "service.js",
   "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"node service.js\" ",
-    "postinstall": "typings install",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "typings": "typings"
+    "start": "node service.js"
   },
   "dependencies": {
     "ejs": "2.4.1",
