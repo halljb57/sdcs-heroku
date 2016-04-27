@@ -49,6 +49,9 @@ out
 .DS_Store
 assets/
 dev/
+typings/
+tsconfig.json
+typings.json
 
 # Docker
 Dockerfile
