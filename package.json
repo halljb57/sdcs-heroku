@@ -1,0 +1,49 @@
+{
+  "name": "sdcsHeroku",
+  "version": "0.0.1",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "service.js",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"node service.js\" ",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+    "angular2": "2.0.0-beta.16",
+    "systemjs": "0.19.26",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.6.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "concurrently": "^2.0.0",
+    "cssnano": "^3.5.2",
+    "gulp": "^3.9.1",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-postcss": "^6.1.0",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-typescript": "^2.13.0",
+    "gulp-uglify": "^1.5.3",
+    "postcss": "^5.0.19",
+    "postcss-scss": "^0.1.7",
+    "precss": "^1.4.0",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
