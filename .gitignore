@@ -47,15 +47,15 @@ out
 *.env
 *.dev
 .DS_Store
-assets/
-dev/
-typings/
-tsconfig.json
-typings.json
+#assets/
+#dev/
+#typings/
+#tsconfig.json
+#typings.json
 
 # Docker
 Dockerfile
 docker-compose.yml
 
-*.sqlite
-gulpfile.js
+#*.sqlite
+#gulpfile.js
